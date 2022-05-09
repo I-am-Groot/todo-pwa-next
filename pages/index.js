@@ -28,7 +28,7 @@ export default function Home() {
                     <section className={styles.app_fab_container}>
                         <a href="#" className={styles.circular_button}>+</a>
                     </section>
-                    <section className={styles.app_scroll_view}>
+                    <section id="app_scroll_view" className={styles.app_scroll_view}>
                         {
                             (new Array(20)).fill(0).map((_, index) => (
                                 <article className={styles.app_todo_card} key={index}>
