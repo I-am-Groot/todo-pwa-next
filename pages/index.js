@@ -17,7 +17,7 @@ export default function Home() {
                 <link href='/favicon-16x16.png' rel='icon' type='image/png' sizes='16x16' />
                 <link href='/favicon-32x32.png' rel='icon' type='image/png' sizes='32x32' />
                 <link rel="apple-touch-icon" href="/apple-icon.png"></link>
-                <meta name="theme-color" content="#4d2c91"/>
+                <meta name="theme-color" content="#4d2b90"/>
             </Head>
             <main id="container" className={styles.container}>
                 <section className={styles.app_status_bar}></section>
