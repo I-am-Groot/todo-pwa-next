@@ -19,7 +19,7 @@ export default function Home() {
                 <link rel="apple-touch-icon" href="/apple-icon.png"></link>
                 <meta name="theme-color" content="#4d2c91"/>
             </Head>
-            <main className={styles.container}>
+            <main id="container" className={styles.container}>
                 <section className={styles.app_status_bar}></section>
                 <section className={styles.app_bar}>
                     <h2>Mi-ToDo App</h2>
