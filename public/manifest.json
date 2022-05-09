@@ -1,6 +1,6 @@
 {
-    "name": "Next Todo PWA",
-    "short_name": "Next Todo PWA",
+    "name": "Mi-ToDo App",
+    "short_name": "Mi-ToDo App",
     "icons": [
       {
         "src": "/icon.png",
