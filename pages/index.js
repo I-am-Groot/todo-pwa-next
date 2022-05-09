@@ -7,7 +7,7 @@ export default function Home() {
         <div>
             <Head>
                 <title>Mi-ToDo App</title>
-                <link rel="icon" href="/fav.ico" />
+                <link rel="icon" href="/favicon.ico" />
                 <meta name="description" content="To-Do App By Mi" />
                 <meta charset='utf-8' />
                 <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
