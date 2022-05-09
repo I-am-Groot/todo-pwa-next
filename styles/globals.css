@@ -20,4 +20,8 @@ a {
   #container {
     max-width: unset;
   }
+
+  #app_bar {
+    display: none;
+  }
 }

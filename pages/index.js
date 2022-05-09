@@ -20,7 +20,7 @@ export default function Home() {
                 <meta name="theme-color" content="#4d2b90"/>
             </Head>
             <main id="container" className={styles.container}>
-                <section className={styles.app_status_bar}></section>
+                <section id="app_bar" className={styles.app_status_bar} />
                 <section className={styles.app_bar}>
                     <h2>Mi-ToDo App</h2>
                 </section>
