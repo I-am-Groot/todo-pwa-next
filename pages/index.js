@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -24,11 +25,13 @@ export default function Home() {
                     <h2>Mi-ToDo App</h2>
                 </section>
                 <section className={styles.app_content}>
-                    <section className={styles.app_fab_container}></section>
+                    <section className={styles.app_fab_container}>
+                        <a href="#" className={styles.circular_button}>+</a>
+                    </section>
                     <section className={styles.app_scroll_view}>
                         {
                             (new Array(20)).fill(0).map((_, index) => (
-                                <article className={styles.app_todo_card}>
+                                <article className={styles.app_todo_card} key={index}>
                                     This is test card {index}.
                                 </article>
                             ))
