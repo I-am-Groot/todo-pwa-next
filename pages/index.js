@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Mi-ToDo App</title>
+                <title>Mi-TODO APP</title>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="description" content="To-Do App By Mi" />
                 <meta charset='utf-8' />
@@ -22,7 +22,7 @@ export default function Home() {
             <main id="container" className={styles.container}>
                 <section id="app_bar" className={styles.app_status_bar} />
                 <section className={styles.app_bar}>
-                    <h2>Mi-ToDo App</h2>
+                    <h2>Mi-TODO APP</h2>
                 </section>
                 <section className={styles.app_content}>
                     <section className={styles.app_fab_container}>

@@ -1,6 +1,6 @@
 {
-    "name": "Mi-ToDo App",
-    "short_name": "Mi-ToDo App",
+    "name": "Mi-TODO APP",
+    "short_name": "Mi-TODO APP",
     "icons": [
       {
         "src": "/icon.png",
@@ -18,5 +18,4 @@
     "start_url": "/",
     "display": "standalone",
     "orientation": "portrait"
-  
   }
