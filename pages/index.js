@@ -33,7 +33,7 @@ export default function Home() {
                     </section>
                     <section id="app_scroll_view" className={styles.app_scroll_view}>
                         {
-                            (new Array(20)).fill(0).map((_, index) => <ToDoItem index={index} />)
+                            (new Array(20)).fill(0).map((_, index) => <ToDoItem key={index} />)
                         }
                     </section>
                 </section>

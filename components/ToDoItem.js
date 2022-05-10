@@ -1,7 +1,7 @@
 import styles from "../styles/ToDoItem.module.css";
 
-export const ToDoItem = ({ index }) => (
-    <article className={styles.app_todo_card} key={index}>
+export const ToDoItem = ({ key }) => (
+    <article className={styles.app_todo_card} key={key}>
         <div className={styles.title_container}>
             <div className={styles.title}>My First To-Do</div>
             <div className={styles.added_ago}>Added 5 min ago</div>
