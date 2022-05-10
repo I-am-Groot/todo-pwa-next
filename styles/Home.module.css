@@ -15,7 +15,7 @@
     z-index: 3;
     background-color: #7e57c2;
     padding: 20px;
-    box-shadow: 0 24px 28px -10px rgba(0,0,0,0.25), 0 20px 10px -10px rgba(0,0,0,0.22);
+    box-shadow: 0 15px 28px -10px rgba(0,0,0,0.25), 0 15px 10px -10px rgba(0,0,0,0.22);
 }
 
 .app_bar h2 {
