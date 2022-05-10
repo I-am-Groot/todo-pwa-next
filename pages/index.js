@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
+
+import { ToDoItem } from "../components/ToDoItem";
+
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -30,11 +33,7 @@ export default function Home() {
                     </section>
                     <section id="app_scroll_view" className={styles.app_scroll_view}>
                         {
-                            (new Array(20)).fill(0).map((_, index) => (
-                                <article className={styles.app_todo_card} key={index}>
-                                    This is test card {index}.
-                                </article>
-                            ))
+                            (new Array(20)).fill(0).map((_, index) => <ToDoItem index={index} />)
                         }
                     </section>
                 </section>
