@@ -21,6 +21,7 @@
 .app_bar h2 {
     margin: 0;
     color: #FFFF;
+    text-transform: uppercase;
 }
 
 .app_content {
