@@ -12,7 +12,11 @@
 }
 
 .right_container {
-    /* min-width: 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    white-space: nowrap;
 }
 
 .title_container {
@@ -35,7 +39,7 @@
     margin-top: 10px;
 }
 
-.options:focus, .options:focus-visible {
+.options:focus:not(:focus-visible) {
     outline: none;
 }
 

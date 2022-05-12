@@ -8,7 +8,7 @@ export const ToDoItem = ({ key }) => (
         </div>
         <div className={`${styles.right_container} text-right`}>
             <div className={styles.added_ago}>Added 5 min ago</div>
-            <button type="button" className={`button ${styles.options}`}><span className="fa fa-ellipsis-v" /></button>
+            <button type="button" className={`button ${styles.options}`}><span className="fa fa-lg fa-ellipsis-v" /></button>
             <div className={styles.due_date}>Due <span className={styles.due_date_value}>10th May, 2022</span></div>
         </div>
         {/* <div className={styles.title_container}>
