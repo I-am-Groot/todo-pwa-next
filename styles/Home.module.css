@@ -20,7 +20,6 @@
 .app_bar h2 {
     margin: 0;
     color: #FFFF;
-    /* text-transform: uppercase; */
 }
 
 .app_content {
@@ -33,14 +32,6 @@
     max-height: 85vh;
     scroll-behavior: smooth;
 }
-
-/* .app_todo_card {
-    padding: 20px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    border-radius: 3px;
-    background-color: #FFFF;
-    margin: 10px 15px 10px 15px;
-} */
 
 .app_fab_container {
     position: absolute;
