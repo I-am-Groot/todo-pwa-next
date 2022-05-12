@@ -50,3 +50,9 @@ a {
 .text-bold {
 	font-weight: 600;
 }
+
+.button {
+	cursor: pointer;
+	background-color: transparent;
+	border: unset;
+}

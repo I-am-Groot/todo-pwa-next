@@ -11,8 +11,8 @@
     margin: 10px 15px 10px 15px;
 }
 
-.left_container {
-    max-width: 80%;
+.right_container {
+    min-width: 20%;
 }
 
 .title_container {
@@ -32,9 +32,6 @@
 }
 
 .options {
-    display: block;
-    background-color: transparent;
-    border: unset;
     margin-top: 10px;
 }
 
@@ -45,10 +42,6 @@
 .due_date {
     font-size: 11px;
     margin-top: 10px;
-    /* font-size: 14px; */
-    /* border-top-color: #5f6368;
-    border-top-width: 1px;
-    border-top-style: solid; */
 }
 
 .due_date_value {
