@@ -19,11 +19,8 @@ a {
   	box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
-	#container {
-		max-width: unset;
-	}
-
+/* X-SM */
+@media only screen and (max-width: 576px) {
 	#app_bar {
 		display: none;
 	}
@@ -33,15 +30,36 @@ a {
 	}
 }
 
+/* SM */
+@media only screen and (min-width: 576px) {
+	#container {
+		max-width: 90%;
+	}
+}
+
+/* MD */
+@media only screen and (min-width: 768px) {
+	#container {
+		max-width: 90%;
+	}
+}
+
+/* LG */
+@media only screen and (min-width: 992px) {
+	#container {
+		max-width: 60%;
+	}
+}
+
 .flex-container {
 	display: flex;
 }
 
-.truncated {
+/* .truncated {
 	overflow-x: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-}
+} */
 
 .text-right {
 	text-align: right;
