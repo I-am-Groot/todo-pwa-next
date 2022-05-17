@@ -45,6 +45,7 @@
     color: #FFFF;
     background-color: #7e57c2;
     font-size: 40px;
+    text-decoration: unset;
     padding: 0px 14px;
     border-radius: 50%;
     transition: background-color 0.3s;
