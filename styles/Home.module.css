@@ -40,6 +40,8 @@
 }
 
 .circular_button {
+    position: sticky;
+    z-index: 1;
     color: #FFFF;
     background-color: #7e57c2;
     font-size: 40px;
@@ -50,6 +52,7 @@
 }
 
 .circular_button:hover {
+    color: #FFFF;
     background-color: #4d2b90;
     transition-timing-function: ease-in-out;
 }

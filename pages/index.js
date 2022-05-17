@@ -5,6 +5,66 @@ import { ToDoItem } from "../components/ToDoItem";
 
 import styles from "../styles/Home.module.css";
 
+
+const todoArr = [
+    {
+        id: 1,
+        title: "My First To-Do",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        addedAt: "2022-05-12",
+        dueDate: "2022-05-13",
+    },
+    {
+        id: 2,
+        title: "My Second To-Do",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        addedAt: "2022-05-12",
+        dueDate: "2022-05-13",
+    },
+    {
+        id: 3,
+        title: "My Third To-Do",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        addedAt: "2022-05-12",
+        dueDate: "2022-05-13",
+    },
+    {
+        id: 4,
+        title: "My Fourth To-Do",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        addedAt: "2022-05-12",
+        dueDate: "2022-05-13",
+    },
+    {
+        id: 5,
+        title: "My Fifth To-Do",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        addedAt: "2022-05-12",
+        dueDate: "2022-05-13",
+    },
+    {
+        id: 6,
+        title: "My Sixth To-Do",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        addedAt: "2022-05-12",
+        dueDate: "2022-05-13",
+    },
+    {
+        id: 7,
+        title: "My Seventh To-Do",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        addedAt: "2022-05-12",
+        dueDate: "2022-05-13",
+    },
+    {
+        id: 8,
+        title: "My Eighth To-Do",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        addedAt: "2022-05-12",
+        dueDate: "2022-05-13",
+    },
+];
+
 export default function Home() {
     return (
         <div>
@@ -33,7 +93,7 @@ export default function Home() {
                     </section>
                     <section id="app_scroll_view" className={styles.app_scroll_view}>
                         {
-                            (new Array(20)).fill(0).map((_, index) => <ToDoItem key={index} />)
+                            todoArr.map((todo, index) => <ToDoItem key={index} todo={todo} />)
                         }
                     </section>
                 </section>

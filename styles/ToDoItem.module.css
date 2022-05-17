@@ -16,6 +16,7 @@
     justify-content: space-around;
     align-items: flex-end;
     white-space: nowrap;
+    margin-left: 10px;
 }
 
 .title_container {
@@ -26,7 +27,6 @@
 
 .title {
     color: #464545;
-    font-size: 16px;
     font-weight: 600;
 }
 
